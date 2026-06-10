@@ -1,0 +1,11 @@
+services:
+  scraper:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      HEADLESS: "true"
+      DB_PATH: "/app/data/scraper.db"
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
