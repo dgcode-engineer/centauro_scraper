@@ -26,7 +26,7 @@ A documentação interativa fica disponível em `http://localhost:8000/docs`.
 
 ---
 
-## Docker
+## Docker ( EM TESTE )
 
 ### Build e execução rápida
 
